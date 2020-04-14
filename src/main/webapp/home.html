@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="ISO-8859-1">
+<title>Home- Hello App TechM</title>
+</head>
+<body>
+	<h1>Welcome to AAF Hello App!</h1>
+	
+	<p>Hi Admin ! You are now able to access the application.</p>
+	
+	<form th:action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out"/>
+        </form>
+</body>
+</html>
