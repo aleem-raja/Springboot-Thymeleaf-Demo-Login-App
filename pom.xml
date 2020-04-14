@@ -18,6 +18,8 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	
+	  <packaging>war</packaging>
 
 	<dependencies>
 		<dependency>
@@ -68,6 +70,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
+			
 		</plugins>
 	</build>
 
